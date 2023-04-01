@@ -101,6 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
             // on narrow screens.
             return Column(
               children: [
+                Text("Hello"),
                 Expanded(child: mainArea),
                 Text("Hello"),
                 SafeArea(
