@@ -102,6 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
             return Column(
               children: [
                 Expanded(child: mainArea),
+                Text("Hello"),
                 SafeArea(
                   child: BottomNavigationBar(
                     items: [
